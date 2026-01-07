@@ -1,0 +1,8 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "custom_package"
+version = "0.1.0"
+description = "custom package pt-real-estate-deal-engine"

@@ -1,0 +1,19 @@
+########## windows syntax ##########
+# cd C:\denv_testes\pt-real-estate-deal-engine\
+# conda create --prefix C:\denv_testes\pt-real-estate-deal-engine\conda_env --file requirements.txt -y
+# conda activate C:\denv_testes\pt-real-estate-deal-engine\conda_env
+
+pandas
+numpy
+joblib
+scikit-learn
+matplotlib
+notebook
+seaborn
+fastparquet
+catboost
+lightgbm
+xgboost
+rich
+openjdk==11
+
