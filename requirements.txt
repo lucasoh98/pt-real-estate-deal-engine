@@ -3,17 +3,16 @@
 # conda create --prefix C:\denv_testes\pt-real-estate-deal-engine\conda_env --file requirements.txt -y
 # conda activate C:\denv_testes\pt-real-estate-deal-engine\conda_env
 
-pandas
-numpy
-joblib
-scikit-learn
-matplotlib
-notebook
-seaborn
-fastparquet
-catboost
-lightgbm
-xgboost
-rich
+pandas==2.3.3
+numpy==2.4.0
+joblib==1.5.3
+scikit-learn==1.8.0
+matplotlib==3.10.8
+notebook==7.5.1
+seaborn==0.13.2
+fastparquet==2025.12.0
+lightgbm==4.6.0
+xgboost==3.1.2
+rich==14.2.0
 openjdk==11
 
